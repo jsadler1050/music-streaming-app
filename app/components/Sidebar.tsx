@@ -38,6 +38,7 @@ export default function Sidebar() {
           <button
             className="fixed bottom-5 left-5 bg-black w-12 h-12 grid lg:hidden place-items-center  text-white rounded-full z-50 cursor-pointer "
             onClick={toggleSidebar}
+            title="Open music library"
           >
             <MdOutlineLibraryMusic />
           </button>
