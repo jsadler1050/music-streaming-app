@@ -31,7 +31,7 @@ export default function Queue() {
                         <p className='text-sm text-secondary-text'>{currentMusic?.artist}</p>
                     </div>
                 </div>
-                <h2>Queue List</h2>
+                <h2 className="text-white font-bold mb-3">Queue List</h2>
                 {queue.map((song : Song, index) => {
                     return (                
                     <div key={song.id} className='mt-8'>
