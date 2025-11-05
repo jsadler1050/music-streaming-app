@@ -52,7 +52,7 @@ export default function Page() {
                 {message && (<p className="bg-primary rounded-full font-semibold text-center mb-4 py-1">{message}</p>)}
 
                 <input onChange={(e) => setEmail(e.target.value)} value={email} type="text" placeholder="Email" className="outline-none border border-neutral-600 p-2 w-full rounded-md text-primary-text placeholder-neutral-600 mb-6 focus:text-secondary-text"/>
-                <input onChange={(e) => setPassword(e.target.value)} value={password} type="text" placeholder="Password" className="outline-none border border-neutral-600 p-2 w-full rounded-md text-primary-text placeholder-neutral-600 mb-6 focus:text-secondary-text"/>
+                <input onChange={(e) => setPassword(e.target.value)} value={password} type="password" placeholder="Password" className="outline-none border border-neutral-600 p-2 w-full rounded-md text-primary-text placeholder-neutral-600 mb-6 focus:text-secondary-text"/>
 
 
             <button className="bg-primary py-3 rounded-full w-full font-bold cursor-pointer">Continue</button>
